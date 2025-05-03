@@ -1,12 +1,8 @@
 import { stripe } from '../../../lib/stripe';
 import { NextResponse } from 'next/server';
 
-// 禁用默认的bodyParser以便自己处理原始请求体
-export const config = {
-  api: {
-    bodyParser: false,
-  },
-};
+// 新的配置方式
+export const runtime = 'edge'; // 可选: 'nodejs' (默认) | 'edge'
 
 async function buffer(readable) {
   const chunks = [];
