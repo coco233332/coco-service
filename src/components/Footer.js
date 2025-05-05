@@ -35,7 +35,7 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">联系我们</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>邮箱: coco20051208@gmail.com</li>
+              <li>邮箱: coco@cocoservice.shop</li>
               <li>电话: +44 7873 651740</li>
               <li>地址: London, United Kingdom</li>
             </ul>
